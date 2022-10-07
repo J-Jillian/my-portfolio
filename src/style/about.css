@@ -1,0 +1,31 @@
+h2 {
+  color: #fff;
+  font-family: Bogart-Bold;
+  font-size: 35px;
+  line-height: 150%;
+  letter-spacing: -2px;
+}
+.about-container {
+  display: flex;
+  margin-left: 120px;
+}
+.about-content {
+  margin: -40px 150px;
+  margin-left: 60px;
+  width: 500px;
+}
+.about-container img {
+  height: 450px;
+  width: auto;
+  border-radius: 10%;
+  margin-top: 60px;
+}
+
+.hero-container {
+  width: 580px;
+}
+
+.p-about {
+  width: 500px;
+  font-size: x-small;
+}

@@ -1,9 +1,10 @@
 import React from "react";
-import Logo from "../assets/logo.png";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import "../style/navbar.css";
 import { useState } from "react";
+import { ImLinkedin } from "react-icons/im";
+import { GrGithub } from "react-icons/gr";
+import { FaBehanceSquare } from "react-icons/fa";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -12,27 +13,33 @@ const Navbar = () => {
   return (
     <header>
       <nav className="navbar">
-        <div className="logo">
-          <img src={Logo} width={120} alt="website-logo" />
-        </div>
-
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link className="nav-link">About</Link>
+            <a href="/" className="nav-link">
+              Work
+            </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link">Packages</Link>
+            <a href="/about" className="nav-link" >
+              About
+            </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link">F&Q</Link>
+            <a href="/wip" className="nav-link">
+              Wip
+            </a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link">Contact</Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link">Sing In</Link>
+            <a href="/contact" className="nav-link">
+              Contact
+            </a>
           </li>
         </ul>
+        <div className="container-socail-icons">
+          <ImLinkedin className="social-icons" />
+          <GrGithub className="social-icons" />
+          <FaBehanceSquare className="social-icons" />
+        </div>
 
         <div className="hamburger" onClick={handleOnclick}>
           {click ? <FaTimes size={20} /> : <FaBars size={20} />}
