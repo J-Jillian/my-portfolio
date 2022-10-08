@@ -1,0 +1,17 @@
+li {
+  list-style: none;
+}
+
+h6 {
+  color: #fff;
+}
+
+.icon {
+  color: #fff;
+}
+
+.icon-container {
+  width: 6rem;
+  display: flex;
+  justify-content: space-evenly;
+}

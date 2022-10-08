@@ -1,13 +1,11 @@
 import React from "react";
 import Hero from "../components/Hero";
-import Navbar from "../components/Navbar";
 import imgAbout from "../assets/webdev.png";
 import "../style/about.css";
 
 const About = () => {
   return (
     <>
-      <Navbar />
       <div>
         <div className="hero-container">
           <div className="about-container">

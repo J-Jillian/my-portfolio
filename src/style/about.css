@@ -1,3 +1,7 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+}
 h2 {
   color: #fff;
   font-family: Bogart-Bold;
@@ -5,9 +9,10 @@ h2 {
   line-height: 150%;
   letter-spacing: -2px;
 }
+
 .about-container {
   display: flex;
-  margin-left: 120px;
+  margin-left: 300px;
 }
 .about-content {
   margin: -40px 150px;
@@ -28,4 +33,10 @@ h2 {
 .p-about {
   width: 500px;
   font-size: x-small;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container {
+    width: 80px;
+  }
 }
