@@ -12,8 +12,14 @@ const Project = (props) => {
         <h6>{props.category}</h6>
         <p>{props.description}</p>
         <div className="icon-container">
-          <BsFillEyeFill className="icon" />
-          <TbCode className="icon" />
+          <a>
+            View project
+            <BsFillEyeFill className="icon" />
+          </a>
+          <a>
+            View code
+            <TbCode className="icon" />
+          </a>
         </div>
       </li>
     </>

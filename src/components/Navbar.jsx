@@ -11,7 +11,7 @@ const Navbar = () => {
   const handleOnclick = () => setClick(!click);
 
   return (
-    <header>
+    <header className="header">
       <nav className="navbar">
         <div className="nav-container">
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -27,7 +27,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a href="/contact" className="nav-link">
+              <a href="/chatbot" className="nav-link">
                 Contact
               </a>
             </li>
