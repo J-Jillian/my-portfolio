@@ -1,14 +1,19 @@
 import React from "react";
-import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Parallaxhero from "../components/Parallaxhero";
+import Projects from "../components/Project/Projects";
+
 import "../style/home.css";
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <div>
-        <div className="hero-container">
+      <div className="hero-container">
+        <Parallaxhero />
+        <Parallaxhero />
+        <div className="home-content">
+          <div></div>
           <h1>
             Hi. I’m
             <br />
@@ -19,8 +24,10 @@ const Home = () => {
           <p>
             I'm also a Digital Designer, with a great passion for technology.
           </p>
+          <div className="projects-container">
+            <Projects />
+          </div>
         </div>
-        <Hero />
       </div>
     </>
   );

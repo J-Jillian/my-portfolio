@@ -10,7 +10,6 @@ const Project = (props) => {
       <li>
         <h2>{props.name}</h2>
         <h6>{props.category}</h6>
-        <img src={props.img} alt="Project-card" />
         <p>{props.description}</p>
         <div className="icon-container">
           <BsFillEyeFill className="icon" />

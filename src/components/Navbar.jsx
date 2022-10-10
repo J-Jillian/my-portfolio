@@ -13,28 +13,27 @@ const Navbar = () => {
   return (
     <header>
       <nav className="navbar">
-        <ul className={click ? "nav-menu active" : "nav-menu"}>
-          <li className="nav-item">
-            <a href="/" className="nav-link">
-              Work
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="/about" className="nav-link" >
-              About
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="/wip" className="nav-link">
-              Wip
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="/contact" className="nav-link">
-              Contact
-            </a>
-          </li>
-        </ul>
+        <div className="nav-container">
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <a href="/" className="nav-link">
+                Work
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/about" className="nav-link">
+                About
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a href="/contact" className="nav-link">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+
         <div className="container-socail-icons">
           <ImLinkedin className="social-icons" />
           <GrGithub className="social-icons" />

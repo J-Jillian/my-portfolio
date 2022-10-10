@@ -1,38 +1,42 @@
-body {
-  min-height: 100vh;
-  width: 100%;
-}
 h2 {
   color: #fff;
   font-family: Bogart-Bold;
   font-size: 35px;
   line-height: 150%;
   letter-spacing: -2px;
+  width: 500px;
 }
 
 .about-container {
-  display: flex;
+  position: relative;
+  /* display: flex;
   margin-left: 300px;
+  position: absolute; */
 }
 .about-content {
-  margin: -40px 150px;
-  margin-left: 60px;
-  width: 500px;
+  display: flex;
+  position: absolute;
+  top: 10rem;
+  left: 12rem;
+  right: 12rem;
+  justify-content: center;
+  align-items: center;
 }
 .about-container img {
   height: 450px;
   width: auto;
   border-radius: 10%;
-  margin-top: 60px;
+  display: flex;
 }
 
-.hero-container {
-  width: 580px;
+.about-section {
+  margin: 3rem;
 }
 
 .p-about {
   width: 500px;
   font-size: x-small;
+  color: #fff;
 }
 
 @media screen and (max-width: 960px) {

@@ -1,0 +1,11 @@
+.wip-container {
+  position: relative;
+}
+
+.wip-content {
+  position: absolute;
+  top: 10rem;
+  left: 6rem;
+  right: 6rem;
+  justify-content: center;
+}
