@@ -1,7 +1,7 @@
 import React from "react";
 import { ThemeProvider } from "styled-components";
 import ChatBot from "react-simple-chatbot";
-import "../style/chatbox.css";
+import "../../style/chatbox.css";
 
 // all available props
 const theme = {

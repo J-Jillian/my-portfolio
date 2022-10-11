@@ -27,7 +27,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a href="/chatbot" className="nav-link">
+              <a href="/" className="nav-link">
                 Contact
               </a>
             </li>
@@ -35,9 +35,15 @@ const Navbar = () => {
         </div>
 
         <div className="container-socail-icons">
-          <ImLinkedin className="social-icons" />
-          <GrGithub className="social-icons" />
-          <FaBehanceSquare className="social-icons" />
+          <a href="https://www.linkedin.com/in/full-stack-developer-digital-designer-judith">
+            <ImLinkedin className="social-icons" />
+          </a>
+          <a href="https://github.com/J-Jillian">
+            <GrGithub className="social-icons" />
+          </a>
+          <a href="https://www.behance.net/j-jillian">
+            <FaBehanceSquare className="social-icons" />
+          </a>
         </div>
 
         <div className="hamburger" onClick={handleOnclick}>

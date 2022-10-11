@@ -1,5 +1,18 @@
 .chatbot-container {
-  position: absolute;
-  margin-top: -1050px;
-  margin-left: 200px;
+  position: fixed;
+  right: 90px;
+  bottom: 90px;
+}
+
+.chatbtn {
+  color: azure;
+  text-decoration: none;
+  background-color: #c8013f;
+  border: none;
+  color: #fff;
+  padding: 25px 25px;
+  border-radius: 50%;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
 }

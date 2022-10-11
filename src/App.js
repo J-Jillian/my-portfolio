@@ -3,9 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import FloatBtn from "./components/FloatBtn";
-import { Segment } from "semantic-ui-react";
-import ChatBox from "./components/ChatBox";
+import ChatToggle from "./components/Chat/ChatToggle";
 
 function App() {
   return (
@@ -14,12 +12,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
-        <Route path="/chatbot" element={<About />}></Route>
+        <Route path="/" element={<ChatToggle />}></Route>
       </Routes>
-      <Segment floated="right">
-        <FloatBtn />
-        <ChatBox />
-      </Segment>
+      <ChatToggle />
     </>
   );
 }
