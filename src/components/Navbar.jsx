@@ -17,7 +17,7 @@ const Navbar = () => {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <a href="/" className="nav-link">
-                Work
+                Wip
               </a>
             </li>
             <li className="nav-item">
