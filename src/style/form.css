@@ -89,6 +89,10 @@
   text-decoration: none;
 }
 
+.data-icons small {
+  font-size: x-small;
+}
+
 @media screen and (max-width: 960px) {
   .content {
     display: block;

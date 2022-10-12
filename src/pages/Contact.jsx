@@ -40,14 +40,18 @@ export const Contact = () => {
           <p>Ask me anything or just say Hi!</p>
           <div className="data-icons">
             <div>
-              <a href="tel:+34671186411">
-                <AiFillPhone /> (+34) 671 18 6411
-              </a>
-            </div>
-            <div>
-              <a href="mailto:judith.mediosdigitales@gmail.com">
-                <GrMail /> judith.mediosdigitales@gmail.com
-              </a>
+              <small>
+                <a href="tel:+34671186411">
+                  <AiFillPhone /> (+34) 671 18 6411
+                </a>
+              </small>
+              <small>
+                <div>
+                  <a href="mailto:judith.mediosdigitales@gmail.com">
+                    <GrMail /> judith.mediosdigitales@gmail.com
+                  </a>
+                </div>
+              </small>
             </div>
           </div>
         </div>
