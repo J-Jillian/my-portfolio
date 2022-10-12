@@ -1,4 +1,4 @@
-h1 {
+.home-content h1 {
   color: aliceblue;
   font-family: Bogart-Bold;
   font-size: calc((95vw - 20rem) / 10);
@@ -18,7 +18,7 @@ p {
 .home-content {
   position: absolute;
   top: 14rem;
-  left: 8rem;
+  left: 6rem;
   right: 10rem;
   justify-content: center;
   align-items: center;
@@ -29,4 +29,28 @@ p {
 }
 
 @media screen and (max-width: 960px) {
+  .home-content h1 {
+    color: aliceblue;
+    font-family: Bogart-Bold;
+    font-size: 60px;
+    letter-spacing: -1.5px;
+    line-height: 120%;
+    margin: 0 -120px;
+    transition: all 0.2s ease-in-out;
+    width: 900px;
+  }
+
+  .slogan-p {
+    margin: 0 -120px;
+    font-size: xx-small;
+  }
+  .home-content {
+    position: absolute;
+    top: 4rem;
+    left: 8rem;
+  }
+
+  .projects-container {
+    margin-top: 4rem;
+  }
 }

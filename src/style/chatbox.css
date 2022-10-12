@@ -1,7 +1,7 @@
 .chatbot-container {
   position: fixed;
-  right: 90px;
-  bottom: 90px;
+  right: 50px;
+  bottom: 105px;
 }
 
 .chatbtn {
@@ -15,4 +15,19 @@
   position: fixed;
   right: 50px;
   bottom: 50px;
+}
+.chat-icon {
+  margin-top: -150px !important;
+}
+@media screen and (max-width: 960px) {
+  .chatbtn {
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .chatbot-container {
+    position: fixed;
+    right: 10px;
+    bottom: 80px;
+  }
 }

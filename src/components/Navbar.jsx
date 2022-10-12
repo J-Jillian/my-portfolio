@@ -27,7 +27,7 @@ const Navbar = () => {
             </li>
 
             <li className="nav-item">
-              <a href="/" className="nav-link">
+              <a href="/contact" className="nav-link">
                 Contact
               </a>
             </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
 
         <div className="hamburger" onClick={handleOnclick}>
-          {click ? <FaTimes size={20} /> : <FaBars size={20} />}
+          {click ? <FaBars size={20} /> : <FaBars size={20} />}
         </div>
       </nav>
     </header>

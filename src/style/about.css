@@ -1,9 +1,9 @@
-h2 {
+.about-section h2 {
   color: #fff;
   font-family: Bogart-Bold;
   font-size: 35px;
   line-height: 150%;
-  letter-spacing: -2px;
+  letter-spacing: -1.6px;
   width: 500px;
 }
 
@@ -16,21 +16,22 @@ h2 {
 .about-content {
   display: flex;
   position: absolute;
-  top: 10rem;
+  top: 12rem;
   left: 12rem;
   right: 12rem;
   justify-content: center;
   align-items: center;
 }
 .about-container img {
-  height: 450px;
+  height: 550px;
   width: auto;
   border-radius: 10%;
   display: flex;
 }
 
 .about-section {
-  margin: 3rem;
+  margin: 4rem;
+  margin-top: -30px;
 }
 
 .p-about {
@@ -42,5 +43,42 @@ h2 {
 @media screen and (max-width: 960px) {
   .hero-container {
     width: 80px;
+  }
+
+  .about-content {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    top: 6rem;
+  }
+
+  .about-section h2 {
+    color: #fff;
+    font-family: Bogart-Bold;
+    font-size: 35px;
+    justify-content: center;
+    line-height: 120%;
+    letter-spacing: -1px;
+    text-align: left;
+    width: 400px;
+  }
+
+  .about-section {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+
+  .p-about {
+    width: 380px;
+    font-size: x-small;
+    color: #fff;
+  }
+
+  .about-container img {
+    height: 450px;
+    width: auto;
+    margin-right: 30px;
   }
 }

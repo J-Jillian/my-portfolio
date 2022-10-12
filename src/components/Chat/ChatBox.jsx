@@ -20,7 +20,7 @@ const steps = [
   {
     id: "Greet",
 
-    message: "Hello, Welcome to our shop",
+    message: "Hi! I’m Jillian Bot 🤖",
 
     trigger: "Done",
   },
@@ -44,7 +44,7 @@ const steps = [
   {
     id: "Name",
 
-    message: "Hi {previousValue}, Please select your issue",
+    message: "Hi {previousValue}, How can I help you today?",
 
     trigger: "issues",
   },
@@ -54,31 +54,33 @@ const steps = [
 
     options: [
       {
-        value: "React",
+        value: "Get in touch",
 
-        label: "React",
+        label: "Get in touch",
 
-        trigger: "React",
+        trigger: "Get in touch",
       },
 
-      { value: "Angular", label: "Angular", trigger: "Angular" },
+      {
+        value: "Send me a message",
+        label: "Send me a message",
+        trigger: "Send me a message",
+      },
     ],
   },
 
   {
-    id: "React",
+    id: "Get in touch",
 
-    message:
-      "Thanks for letting your React issue, Our team will resolve your issue ASAP",
+    message: "Please sed a mail to:Judith.mediosdigitales@gmail.com",
 
     end: true,
   },
 
   {
-    id: "Angular",
+    id: "Send me a message",
 
-    message:
-      "Thanks for letting your Angular issue, Our team will resolve your issue ASAP",
+    message: "Thanks for your message, I'm going to reach you, ASAP",
 
     end: true,
   },

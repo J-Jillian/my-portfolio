@@ -11,3 +11,15 @@ html {
   background-image: url("../assets/hero.jpg");
   min-height: 100vh;
 }
+
+@media screen and (max-width: 960px) {
+  body,
+  html {
+    margin: 0;
+  }
+
+  .bg-img {
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+}

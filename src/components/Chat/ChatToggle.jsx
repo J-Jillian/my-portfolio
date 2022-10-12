@@ -21,7 +21,7 @@ const ChatToggle = () => {
           onClick={() => setToggle((prevState) => !prevState)}
           className="chatbtn"
         >
-          <BsChatDots />
+          <BsChatDots className="chat-icon" />
         </button>
       </div>
     </>

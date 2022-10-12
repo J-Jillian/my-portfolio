@@ -1,8 +1,18 @@
-
-
 h6 {
   color: #fff;
   margin: 20px 0;
+}
+
+.projects-container h2 {
+  color: #fff;
+  color: aliceblue;
+  font-family: Bogart-Bold;
+  font-size: 30px;
+  letter-spacing: -0.5px;
+  line-height: 120%;
+  margin: 0;
+  transition: all 0.2s ease-in-out;
+  width: 300px;
 }
 
 .icon {
@@ -11,9 +21,11 @@ h6 {
 }
 
 .icon-container {
-  width: 3rem;
   display: flex;
-  justify-content: space-evenly;
+}
+
+.icon-item {
+  padding: 0 15px;
 }
 
 .projects-container {
@@ -23,11 +35,11 @@ h6 {
 .projects-container h2 {
   margin: 5px 0;
 }
-.projects-container p {
+.projects-p {
   width: 300px;
   font-size: 20px;
-  letter-spacing: 0.8px;
-  line-height: 100%;
+  letter-spacing: 0.5px;
+  line-height: 120%;
   margin: 0;
   transition: all 0.2s ease-in-out;
 }
@@ -42,7 +54,41 @@ h6 {
   list-style: none;
   border: solid white 4px;
   border-radius: 6%;
-  padding: 1rem;
+  padding: 2rem;
   width: 300px;
   height: 300px;
+}
+
+.icon-container a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 960px) {
+  .projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .projects-container ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+
+  .projects-container li {
+    list-style: none;
+    border: solid white 2px;
+    border-radius: 6%;
+    padding: 1rem;
+    font-size: xx-small;
+    width: 300px;
+    height: 300px;
+  }
+
+  .projects-p {
+    font-size: xx-small;
+  }
 }

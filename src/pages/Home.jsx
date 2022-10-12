@@ -12,6 +12,7 @@ const Home = () => {
       <div className="hero-container">
         <Parallaxhero />
         <Parallaxhero />
+        <Parallaxhero />
         <div className="home-content">
           <div></div>
           <h1>
@@ -21,7 +22,7 @@ const Home = () => {
             <br />
             <span>SW Developer.</span>
           </h1>
-          <p>
+          <p className="slogan-p">
             I'm also a Digital Designer, with a great passion for technology.
           </p>
           <div className="projects-container">

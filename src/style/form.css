@@ -1,0 +1,113 @@
+.content {
+  display: flex;
+  position: absolute;
+  top: 180px;
+  left: 140px;
+}
+
+.content hr {
+  border: none;
+  padding: 1rem;
+}
+
+.head {
+  width: 600px;
+  padding: 6rem 0;
+  margin-right: 100px;
+}
+
+.form-content {
+  margin-top: 40px;
+  list-style: none;
+  border: solid white 2px;
+  border-radius: 6%;
+  padding: 1rem;
+}
+/*
+.form-content form {
+  display: block;
+  position: absolute;
+} */
+
+.content h1 {
+  color: aliceblue;
+  font-family: Bogart-Bold;
+  font-size: calc((95vw - 20rem) / 12);
+  letter-spacing: -1.5px;
+  line-height: 120%;
+  margin: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-content input {
+  display: block;
+  /* margin-top: 15px; */
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 80px;
+  outline: none;
+  text-align: left;
+}
+
+.form-container textarea {
+  display: block;
+  margin-top: 15px; /* Add a top margin */
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  padding: 50px 80px;
+  outline: none;
+  text-align: left;
+  /* resize: none; */
+}
+
+.form-container label {
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #fff;
+}
+.data-icons {
+  display: block;
+  padding-top: 2rem;
+}
+
+.data-icons div {
+  padding-top: 1rem;
+}
+
+.data-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 960px) {
+  .content {
+    display: block;
+  }
+
+  .form-content {
+    width: 50%;
+  }
+  .content {
+    margin-left: -60px;
+  }
+
+  .content h1 {
+    color: aliceblue;
+    font-family: Bogart-Bold;
+    font-size: 60px;
+    letter-spacing: -1.5px;
+    line-height: 120%;
+    margin: 0;
+    transition: all 0.2s ease-in-out;
+  }
+}

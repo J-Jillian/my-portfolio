@@ -1,0 +1,38 @@
+.send-button {
+  background: #ff8e00;
+  color: #fff;
+  border: none;
+  position: relative;
+  height: 80px;
+  font-size: 1em;
+  padding: 0 1em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+}
+.send-button:hover {
+  background: #fff;
+  color: #ff8e00;
+}
+.send-button:before,
+.send-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #ff8e00;
+  transition: 400ms ease all;
+}
+.send-button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+.send-button:hover:before,
+.send-button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
