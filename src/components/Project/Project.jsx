@@ -13,12 +13,12 @@ const Project = (props) => {
         <p className="projects-p">{props.description}</p>
         <div className="icon-container">
           <div className="icon-item">
-            <a href="https://github.com/J-Jillian">
+            <a href={props.url1}>
               <BsFillEyeFill size={30} className="icon" />
             </a>
           </div>
           <div className="icon-item">
-            <a href="https://github.com/J-Jillian">
+            <a href={props.url2}>
               <TbCode size={30} className="icon" />
             </a>
           </div>

@@ -10,9 +10,11 @@ const Home = () => {
     <>
       <Navbar />
       <div className="hero-container">
-        <Parallaxhero />
-        <Parallaxhero />
-        <Parallaxhero />
+        <div className="remove-parallax">
+          <Parallaxhero />
+          <Parallaxhero />
+        </div>
+
         <div className="home-content">
           <div></div>
           <h1>

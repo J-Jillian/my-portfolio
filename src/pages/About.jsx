@@ -8,8 +8,9 @@ const About = () => {
   return (
     <>
       <div className="about-container">
-        <Parallaxhero />
-        <Parallaxhero />
+        <div className="remove-parallax">
+          <Parallaxhero />
+        </div>
         <div className="about-content">
           <img src={imgAbout} className="profile-img" alt="about-img" />
           <div className="about-section">

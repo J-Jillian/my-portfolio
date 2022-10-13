@@ -32,8 +32,10 @@ export const Contact = () => {
 
   return (
     <div className="form-container">
-      <Parallaxhero />
-      <Parallaxhero />
+      <div className="remove-parallax">
+        <Parallaxhero />
+      </div>
+
       <div className="content">
         <div className="head">
           <h1>Get in touch</h1>

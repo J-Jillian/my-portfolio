@@ -16,7 +16,7 @@
 .about-content {
   display: flex;
   position: absolute;
-  top: 12rem;
+  top: 8rem;
   left: 12rem;
   right: 12rem;
   justify-content: center;
@@ -30,8 +30,8 @@
 }
 
 .about-section {
-  margin: 4rem;
-  margin-top: -30px;
+  margin-top: 20px;
+  margin-left: 2rem;
 }
 
 .p-about {
@@ -80,5 +80,9 @@
     height: 450px;
     width: auto;
     margin-right: 30px;
+  }
+
+  #root {
+    background-color: #ff8e00;
   }
 }

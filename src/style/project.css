@@ -91,4 +91,8 @@ h6 {
   .projects-p {
     font-size: xx-small;
   }
+
+  .remove-parallax {
+    visibility: hidden;
+  }
 }
