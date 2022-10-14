@@ -63,5 +63,6 @@ p {
   html {
     margin: 0;
     background-color: #ff8e00;
+    overflow-x: hidden;
   }
 }

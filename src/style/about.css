@@ -84,5 +84,6 @@
 
   #root {
     background-color: #ff8e00;
+    overflow-x: hidden;
   }
 }
