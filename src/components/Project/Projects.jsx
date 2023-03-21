@@ -23,7 +23,7 @@ const Projects = () => {
       description:
         "Fundraising campaign web App a complete build with MERN stack implementing mantine.dev library for the front-end UI, it was a full CRUD where you could add campaigns with your authentication user provider.",
       img: "logo",
-      url1: "https://make-the-difference.netlify.app/signup",
+      url1: "https://make-the-difference.netlify.app/",
       url2: "https://github.com/J-Jillian/Campaign-App-Server",
     },
     {
